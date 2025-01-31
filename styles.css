@@ -1,4 +1,81 @@
 body{
-    background-repeat: no-repeat;
-    background-image: linear-gradient(red, white);
+    background-image: url(background.gif);
+}
+
+footer{
+    color: rgb(56, 54, 54);
+}
+
+.date{
+    float: right;
+    text-align: right;
+}
+
+#message{
+    text-align: left;
+    width: 97%;
+    margin: auto;
+    border-radius: 3px;
+    border-style: outset;
+    margin-bottom: 1%;
+}
+
+.submitbutton{
+    border-style: inset;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.answertext{
+    margin-left: 2%;
+}
+
+.answerbox{
+    border-style: inset;
+}
+
+.inputtitle{
+    text-align: left;
+    margin: auto;
+    margin-left: 2%;
+}
+
+.inputbox{
+    width: 94%;
+    margin-left: 2%;
+    border-style: inset;
+}
+
+.messageform{
+    text-align: left;
+}
+
+.top{
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+.letterlink{
+    font-size: 15px;
+}
+
+#content{
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+    border-style: ridge;
+    border-color: aqua;
+}
+
+#bookcontent{
+    text-align: center;
+    background-color: aliceblue;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-style: ridge;
+    border-color: aqua;
 }
