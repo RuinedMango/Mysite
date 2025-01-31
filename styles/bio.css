@@ -1,5 +1,8 @@
+@import url(fonts.css);
+
 body{
     background-image: url(/imgs/background.gif);
+    font-family: Mindsight, sans-serif;
 }
 
 footer{
