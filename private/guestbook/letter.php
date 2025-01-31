@@ -1,6 +1,6 @@
 <?php
-include('private/utils/variableAndFunctions.php');
-include('private/db/config.php');
+include('../utils/variableAndFunctions.php');
+include('../db/config.php');
 
 if (isset($_POST['action']) and $_POST['action'] == 'sendmessage') {
     $sanatizedsite = sanatizeLink($_POST['website']);
@@ -12,13 +12,13 @@ if (isset($_POST['action']) and $_POST['action'] == 'sendmessage') {
 
     if (empty($name)) {
         $_SESSION['msg'] = "Input fields cannot be empty!";
-        redirect('guestbook.php');
+        redirect('/guestbook.php');
     } elseif (empty($message)) {
         $_SESSION['msg'] = "Input fields cannot be empty!";
-        redirect('guestbook.php');
+        redirect('/guestbook.php');
     } elseif (empty($verification)) {
         $_SESSION['msg'] = "Input fields cannot be empty!";
-        redirect('guestbook.php');
+        redirect('/guestbook.php');
     } else {
         if ($previousSumRandNum == $verification) {
             $name=mysqli_real_escape_string($dbconnect, htmlspecialchars($name));
@@ -29,22 +29,22 @@ if (isset($_POST['action']) and $_POST['action'] == 'sendmessage') {
             if ($sendMessage) {
                 $_SESSION['msg'] = "Message Added!";
                 unset($_SESSION['sumRandNum']);
-                redirect('guestbook.php');
+                redirect('/guestbook.php');
             } else {
                 $_SESSION['msg'] = "Failed adding your message!";
                 unset($_SESSION['sumRandNum']);
-                redirect('guestbook.php');
+                redirect('/guestbook.php');
                 exit;
             }
         } else {
             $_SESSION['msg'] = "Verification failed!";
             unset($_SESSION['sumRandNum']);
-            redirect('guestbook.php');
+            redirect('/guestbook.php');
             exit;
         }
     }
 } else {
     unset($_SESSION['sumRandNum']);
-    redirect('guestbook.php');
+    redirect('/guestbook.php');
 }
 ?>
