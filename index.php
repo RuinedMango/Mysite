@@ -8,7 +8,7 @@
     <title>My Project</title>
 
     <!-- To link external styling file -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>

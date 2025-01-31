@@ -1,11 +1,20 @@
 body{
-    background-image: url(background.gif);
+    background-image: url(/imgs/background.gif);
 }
 
 footer{
     color: rgb(56, 54, 54);
 }
 
+.postform,
+.show,
+.hide:target {
+  display: none;
+}
+.hide:target + .show,
+.hide:target ~ .postform {
+  display: block;
+}
 .date{
     float: right;
     text-align: right;
@@ -19,7 +28,6 @@ footer{
     border-style: outset;
     margin-bottom: 1%;
 }
-
 .submitbutton{
     border-style: inset;
     margin-left: 2%;

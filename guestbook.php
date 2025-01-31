@@ -2,7 +2,8 @@
 if(!isset($_SESSION)){
     session_start();
 }
-include('variableAndFunctions.php');
+include('private/utils/variableAndFunctions.php');
+include('private/db/config.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,7 @@ include('variableAndFunctions.php');
     <title>Guestbook</title>
 
     <!-- To link external styling file -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/guestbook.css">
 </head>
 
 <body>
@@ -22,8 +23,10 @@ include('variableAndFunctions.php');
         <div id="bookcontent">
             <a href="index.php">Back</a>
             <h2>Welcome to the guestbook</h2>
-
-            <form class="messageform" action="letter.php" method="post">
+            <a id="hide1" href="#hide1" class="hide">+ Open form</a>
+            <a id="show1" href="#show1" class="show">- Close form</a>
+            <div class="postform">
+            <form class="messageform" action="/private/guestbook/letter.php" method="post">
                 <p class="inputtitle">Name:</p>
                 <p><input type="text" name="name" class="inputbox" maxlength="60" placeholder="Your Name"></p>
                 <p class="inputtitle">Your Site:</p>
@@ -37,6 +40,7 @@ include('variableAndFunctions.php');
                 <input class="submitbutton" type="submit" value="send" title="Send your message!">
                 <input type="hidden" name="action" value="sendmessage">
             </form>
+            </div>
             <p id="sessionmsg">
                 <?php
                 if(isset($_SESSION['msg'])) {

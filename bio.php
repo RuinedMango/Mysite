@@ -8,7 +8,7 @@
     <title>About Me</title>
 
     <!-- To link external styling file -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/bio.css">
 </head>
 
 <body>

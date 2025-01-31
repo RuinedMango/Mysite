@@ -1,0 +1,17 @@
+body{
+    background-image: url(/imgs/background.gif);
+}
+
+footer{
+    color: rgb(56, 54, 54);
+}
+
+#content{
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+    border-style: ridge;
+    border-color: aqua;
+}
