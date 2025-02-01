@@ -2,3 +2,7 @@
     font-family: Mindsight;
     src: url('/fonts/Mindsight.ttf');
 }
+@font-face {
+    font-family: Departure NerdFont;
+    src: url('/fonts/DepartureMonoNerdFont-Regular.otf');
+}

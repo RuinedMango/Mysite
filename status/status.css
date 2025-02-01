@@ -1,0 +1,15 @@
+@import url("../styles/fonts.css");
+
+#status{
+    font-family: Departure NerdFont;
+    width: fit-content;
+    border-style: inset;
+    background-color: beige;
+    p{
+        text-align: left;
+        margin: 0%;
+    }
+    p.date{
+        float: right;
+    }
+}
