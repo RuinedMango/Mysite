@@ -12,9 +12,9 @@ footer{
 #content{
     text-align: center;
     background-color: aliceblue;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 25%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
     border-style: ridge;
     border-color: aqua;
 }

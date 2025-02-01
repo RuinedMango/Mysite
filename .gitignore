@@ -1,2 +1,2 @@
 .vscode/
-config.php
+private/db/config.php
