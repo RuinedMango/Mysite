@@ -60,7 +60,7 @@ include('private/db/config.php')
                         <p class="top"><?= ($result['name']) ?><span class="date"><?= ($result['date']) ?></span></p>
                         <a class="letterlink" target="_blank" href=<?=( "https://" . $result['site']) ?>><?= ($result['site']) ?></a>
                     </div>
-                    <p><?= ($result['message']) ?></p>
+                    <p id="message" class="text"><?= ($result['message']) ?></p>
                 </div>
             </div>
             <?php

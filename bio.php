@@ -17,9 +17,8 @@
     </header>
     <main>
         <div id="content">
-            <h2>Professional gang member</h2>
-            <h3><a href="bio.php">About Me</a></h3>
-            <h3><a href="guestbook.php">Sign the Guestbook</a></h3>
+            <h2>Ruinedmango</h2>
+            <p>My name is ruinedmango I like all things retro and often love to do things myself</p>
         </div>
     </main>
     <footer>
