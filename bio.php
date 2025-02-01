@@ -1,3 +1,6 @@
+<?php
+include('private/status/status.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,12 +20,9 @@
     <main>
         <div id="content">
             <h2>Ruinedmango</h2>
-            <p>
-                <?php
-                    
-                ?>
-            </p>
-
+            <?php
+                echo $statusBadge
+            ?>
         </div>
     </main>
     <footer>

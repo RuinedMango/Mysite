@@ -3,7 +3,7 @@ if(!isset($_SESSION)){
     session_start();
 }
 include('private/utils/variableAndFunctions.php');
-include('private/db/config.php')
+include('private/db/config.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

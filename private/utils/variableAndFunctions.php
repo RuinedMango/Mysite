@@ -25,6 +25,28 @@ function randomNumber(){
     return rand(1, 100);
 }
 
+class Status{
+    public $date;
+    public $message;
+}
+
+function parseStatus($location){
+    $status = new Status();
+    $fh = fopen($location,'r');
+    $i = 0;
+    while($line = fgets($fh)){
+        if($i == 0){
+            $status->date = $line;
+        }else{
+            $status->message .= $line;
+        }
+
+        $i++;
+    }
+    fclose($fh);
+    return $status;
+}
+
 $randNum1 = randomNumber();
 $randNum2 = randomNumber();
 
