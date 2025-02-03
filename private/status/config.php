@@ -1,2 +1,2 @@
 <?php
-$statusfile = "../../status/status.txt";
+$statusfile = "status/status.txt";
