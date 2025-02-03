@@ -1,18 +1,12 @@
 @import url(fonts.css);
 
 body{
-    background-image: url(/imgs/background.gif);
+    background-image: url(/imgs/hacker.gif);
     font-family: Mindsight, sans-serif;
 }
 
 footer{
     color: rgb(56, 54, 54);
-}
-
-#adminlink{
-    float: left;
-    text-decoration: none;
-    color: white;
 }
 
 #content{

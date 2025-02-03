@@ -19,10 +19,12 @@ include('private/status/status.php');
     </header>
     <main>
         <div id="content">
+            <a id="adminlink" href="admin.php">a</a>
             <h2>Ruinedmango</h2>
             <?php
                 echo $statusBadge
             ?>
+            <p>Gnags</p>
         </div>
     </main>
     <footer>
