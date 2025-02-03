@@ -21,7 +21,7 @@ include('private/db/config.php');
 <body>
     <main>
         <div id="bookcontent">
-            <a href="index.php">Back</a>
+            <a href="index.php" id="back">←</a>
             <h2>Welcome to the guestbook</h2>
             <a id="hide1" href="#hide1" class="hide">+ Open form</a>
             <a id="show1" href="#show1" class="show">- Close form</a>

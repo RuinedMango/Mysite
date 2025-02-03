@@ -1,9 +1,16 @@
+@import url('fonts.css');
+
 body{
     background-image: url(/imgs/background.gif);
 }
 
 footer{
     color: rgb(56, 54, 54);
+}
+
+#back{
+    float: left;
+    text-decoration: none;
 }
 
 .postform,

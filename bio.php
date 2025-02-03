@@ -19,6 +19,7 @@ include('private/status/status.php');
     </header>
     <main>
         <div id="content">
+        <a href="index.php" id="back">←</a>
             <a id="adminlink" href="admin.php">a</a>
             <h2>Ruinedmango</h2>
             <?php

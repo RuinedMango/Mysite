@@ -10,9 +10,14 @@ footer{
 }
 
 #adminlink{
-    float: left;
+    float: right;
     text-decoration: none;
     color: white;
+}
+
+#back{
+    float: left;
+    text-decoration: none;
 }
 
 #content{

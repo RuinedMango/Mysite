@@ -22,6 +22,7 @@ if(!isset($_SESSION)){
     </header>
     <main>
         <div id="content">
+            <a href="bio.php" id="back">←</a>
             <h2>Ruinedmango</h2>
             <?php if(!isset($_SESSION['isadmin'])): ?>
             <p>

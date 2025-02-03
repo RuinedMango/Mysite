@@ -9,6 +9,11 @@ footer{
     color: rgb(56, 54, 54);
 }
 
+#back{
+    float: left;
+    text-decoration: none;
+}
+
 #content{
     text-align: center;
     background-color: aliceblue;

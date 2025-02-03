@@ -6,3 +6,7 @@
     font-family: Departure NerdFont;
     src: url('/fonts/DepartureMonoNerdFont-Regular.otf');
 }
+@font-face {
+    font-family: Hack NerdFont;
+    src: url('/fonts/HackNerdFont-Regular.ttf');
+}
