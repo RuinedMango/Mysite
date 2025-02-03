@@ -1,2 +1,4 @@
 .vscode/
+status/status.txt
 private/db/config.php
+private/admin/config.php

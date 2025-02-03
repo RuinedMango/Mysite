@@ -3,8 +3,9 @@
 #status{
     font-family: Departure NerdFont;
     width: fit-content;
-    border-style: inset;
-    background-color: beige;
+    border-style: outset;
+    background-color:bisque;
+    border-color: beige;
     p{
         text-align: left;
         margin: 0%;
