@@ -6,10 +6,11 @@ $status = parseStatus($statusfile);
 $statusBadge= <<<EOT
     <link rel="stylesheet" href="status/status.css">
     <div id="status">
-        <p class="header">Status:</p>
         <p class="date">$status->date</p>
-        
-        <p>$status->message</p>
+        <p class="header">Status:</p>
+        <div>
+            <p>$status->message</p>
+        </div>
     </div>
 EOT;
 ?>
