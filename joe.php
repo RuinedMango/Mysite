@@ -17,6 +17,7 @@
     <main>
         <div id="content">
             <img src="imgs/joeog.png" alt="joe">
+            <a id="back" href="index.php">←</a>
         </div>
     </main>
     <footer>
