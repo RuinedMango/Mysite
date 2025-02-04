@@ -17,6 +17,7 @@
     </header>
     <main>
         <div id="content">
+            <a id="joe" href="joe.php">Joe</a>
             <h2>Professional gang member</h2>
             <h3><a href="bio.php">About Me</a></h3>
             <h3><a href="guestbook.php">Sign the Guestbook</a></h3>
