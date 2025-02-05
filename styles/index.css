@@ -6,6 +6,16 @@ footer{
     color: rgb(56, 54, 54);
 }
 
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
 #joe{
     float: left;
     text-decoration: none;

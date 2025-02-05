@@ -1,3 +1,7 @@
+<?php
+include("private/utils/lastedit.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +28,7 @@
         </div>
     </main>
     <footer>
+        <?php echo lastEdit(__FILE__) ?>
         <p>&copy; 2024 RuinedNet</p>
     </footer>
 </body>

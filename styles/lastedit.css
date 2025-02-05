@@ -1,0 +1,12 @@
+@import url("fonts.css");
+
+#lastedit{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: slategray;
+    border-color: darkslategray;
+    border-style: outset;
+    line-height: 1px;
+    color: brown;
+}
