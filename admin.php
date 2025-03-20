@@ -26,9 +26,9 @@ if(!isset($_SESSION)){
             <h2>Ruinedmango</h2>
             <?php if(!isset($_SESSION['isadmin'])): ?>
             <p>
-                <form action="/private/admin/login.php" method="post">
+                <form autocomplete="off" action="/private/admin/login.php" method="post">
                     <p>Username: <input name="username" type="text"></p>
-                    <p>Password: <input name="password" type="text"></p>
+                    <p>Password: <input name="password" type="password"></p>
                     <input class="submitbutton" type="submit" value="Login" title="Login!">
                 </form>
             </p>
@@ -45,7 +45,7 @@ if(!isset($_SESSION)){
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 RuinedNet</p>
+        <p>&copy; 2025 RuinedNet</p>
     </footer>
 </body>
 

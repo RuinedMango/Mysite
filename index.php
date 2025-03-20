@@ -29,7 +29,7 @@ include("private/utils/lastedit.php");
     </main>
     <footer>
         <?php echo lastEdit(__FILE__) ?>
-        <p>&copy; 2024 RuinedNet</p>
+        <p>&copy; 2025 RuinedNet</p>
     </footer>
 </body>
 

@@ -29,7 +29,7 @@ include('private/status/status.php');
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 RuinedNet</p>
+        <p>&copy; 2025 RuinedNet</p>
     </footer>
 </body>
 
